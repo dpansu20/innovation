@@ -1,0 +1,361 @@
+html {
+    overflow-x: hidden;
+
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bgr {
+    background-image:url(images/reforester5.jpg);
+    background-color: rgba(255,255,255,0.7);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat; 
+    background-size:100% 100%;
+}
+
+.navbar-nav{
+    /* font-family: Bookman Header; */
+    font-size: 25px;
+}
+.con{
+    border:2px solid transparent;
+     padding-left: 50px;
+     padding-right: 50px;
+ }
+
+ .cont {
+     /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+     background-color: rgba(0, 0, 0, 0.3);
+     margin-left: 5%;
+     margin-right: 5%;
+     margin-top: 2%;
+     margin-bottom: 5%;
+     color: black;
+ }
+
+.hero {
+    width: 1250;
+    height: 720px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(images/reforester5.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h {
+    text-align: center;
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif;
+    /* padding-top: 40px; */
+}
+
+ .contact{
+     padding-left: 90px;
+     padding-right: 90px;
+ }
+
+.dropdown-item  a {
+    border-style: ridge;
+    border-color: black;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(100,100,100);
+}
+/* a:focus, a:hover {
+    outline: 0 !important;
+} */
+
+ /* ul li:hover{
+     background-color:rgb(211,211,211);
+     font-weight: bolder;
+ } */
+ .carousel-item{
+     padding-right: 0px;
+     padding-left: 0px;
+ }
+ .hello1{
+    height: 700px;
+     width: 1250;
+ }
+ .hello2{
+    height: 720px;
+     width: 1300;
+ }
+ .hello3{
+    height: 720px;
+     width: 1300;
+ }
+.hello5 {
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+ h3 {
+     /* font-family: Bookman Header; */
+     font-style: bold;
+ }
+
+ div.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.text_container {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: teal;
+    color: white;
+  }
+
+  div.text_container a {
+        color: white;
+  }
+
+  div.transbox {
+    margin: 5%;
+    margin-top: 0;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    height: 700px;
+  }
+
+ .a {
+     height: 5px;
+     background-color: black;
+     margin-right: 10%;
+     margin-left: 10%;
+ }
+
+ 
+#menu {
+    margin-right: 5%;
+}
+
+#background_image {
+    width : 100%;
+    position : absolute;
+    top: 0;
+    left: 0;
+}
+
+.civil_photo {
+    height:auto;
+    width: 70%; 
+    margin-left: 5%;
+}
+
+.svnit_photo {
+    height:100px;
+    width:200px;
+    margin-left: 5%;
+}
+
+.tensegrity_photo {
+    display: block;
+     margin-left: auto;
+     margin-right: auto; 
+     width: 25%; 
+     height: 25%;
+}
+
+.bridge_photo {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    width: 30%; 
+    height: 30%;
+}
+
+.truss_photo {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    width: 50%;
+}
+
+.main_photo {
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* padding-top: 2%; */
+    /* padding-bottom: 2%; */
+}
+
+.bottom_location .rounded-social-buttons {
+    margin-right: 10px;
+}
+
+@media(max-width:1240px) {
+    .hello1 {
+        height: 600px;
+    }
+    .hello5 {
+        height: 400px;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+}
+
+@media(max-width : 1200px) {
+    .main_photo {
+        height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-top: 2%;
+    }
+}
+
+@media (max-width : 850.98px) {
+    .bgr {
+        background-size: cover;
+        background-position: center;
+    }
+    .hello1 {
+        height: 400px;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .hello5 {
+        height : 300px;
+        margin-bottom: 100px;
+        margin-top: 0px;
+        /* margin-top: 100px;
+        margin-bottom: 100px; */
+    }
+    .main_photo {
+        height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-top: 2%;
+    }
+}
+
+ @media (max-width: 600.98px) { 
+     .con{
+         border:2px solid transparent;
+     padding-left: 20px;
+     padding-right: 10px;
+     }
+ }
+ @media (max-width: 600.98px) { 
+     .hello1{
+         height: 250px;
+         padding-right: 5%;
+         padding-left: 5%;
+         
+     }
+ }
+ @media (max-width: 600.98px) { 
+     .hello2{
+         height: 250px;
+     }
+ }
+ @media (max-width: 600.98px) { 
+     .hello3{
+         height: 250px;
+     }
+ }
+ @media (max-width: 600.98px) { 
+    .hello4{
+        padding-top: 4px;
+        text-align:center;
+    }
+    @media (max-width: 600.98px) { 
+        .hello5{
+            /* padding-top: 4px; */
+            text-align:center;
+        }
+        @media (max-width: 600.98px) { 
+            .hello6{
+                padding-top: 4px;
+                text-align:center;
+            }
+            @media (max-width: 600.98px) { 
+                .hello7{
+                    text-align:center;
+                }
+
+@media (max-width : 600.98px) {
+    .bgr {
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .con {
+        margin-right: 5%;
+    }
+    .svnit_photo {
+        margin-left: 0%;
+        height: 75px;
+        width: 150px;
+    }
+    .main_photo {
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-top: 2%;
+    }
+
+    .h {
+        font-size: 40px;
+    }
+    .hello1 {
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hello5 {
+        height:250px;
+        margin-bottom: 0%;
+        margin-top: 0px;
+        /* margin-bottom: 50px; */
+        /* margin-top: 50px; */
+    }
+
+     .heading {
+        font-size: 35px;
+    }
+    .project_photo , .tensegrity_photo, .truss_photo {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        height: auto;
+        width: 100%;
+    }
+
+    .bridge_photo{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        height: auto;
+        width: 105%;
+    }
+   
+}
+
+@media(max-width : 380px) {
+    .main_photo {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-top: 2%;
+    }
+}
