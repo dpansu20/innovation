@@ -1,0 +1,155 @@
+.h {
+    text-align: center;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif
+}
+
+a{
+    color: darkblue;
+}
+
+
+/* a:hover {
+    color: cadetblue;
+} */
+
+.txt {
+    font-size: 25px;
+}
+
+.cont {
+    margin-bottom: 2%;
+}
+
+.suspension {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    margin-bottom: 5%;
+}
+.plant {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+.digging {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.chassis {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 100%;
+}
+
+.rounded-icons {
+    text-align: center;
+    margin: 50px;
+}
+
+ .social-button {
+
+   display: inline-block;
+   position: relative !important;
+   cursor: pointer !important;
+   width: 3.125rem !important;
+   height: 3.125rem !important;
+   border: 0.125rem solid transparent;
+   padding: 0;
+   text-decoration: none;
+   text-align: center;
+   color: #fefefe;
+   font-size: 1.5625rem;
+   font-weight: normal;
+   line-height: 2em;
+   border-radius: 1.6875rem;
+   transition: all 0.5s ease;
+   margin-right: 0.25rem;
+   margin-bottom: 0.25rem;
+
+}
+
+.rounded-icons .social-button:hover, .rounded-icons .social-button:focus {
+   -webkit-transform: rotate(360deg);
+       -ms-transform: rotate(360deg);
+           transform: rotate(360deg);
+ }
+
+ .social-button.sus {
+    background: white;
+    
+ }
+
+ .social-button.plant {
+    background : black;
+    
+ }
+
+ .social-button.arduino {
+     background : #009688;
+     
+ }
+
+ .social-button.location {
+
+    background :black
+ 
+ }
+
+
+@media(max-width : 600.98px)
+{
+    .suspension {
+        margin-bottom: 0%;
+        width: 50%;
+    }
+    
+    .h {
+        font-size: 40px;
+    }
+    .digging {
+        width: 60%;
+    }
+    .chassis {
+        width: 65%;
+    }
+    .txt {
+        font-size: 20px;
+    }
+
+}
+
+@media(max-width : 750px)
+{
+    .suspension {
+        width: 30%;
+        margin-bottom: 0%;
+    }
+    .plant {
+        width: 75%;
+    }
+    .digging {
+        margin-top: 5%;
+        width: 70%;
+    }
+    .chassis {
+        width: 70%;
+    }
+    .wheel {
+        width: 60%;
+    }
+}
+
+@media(max-width : 1500px)
+{
+    .chassis {
+        width: 100%;
+    }
+}
