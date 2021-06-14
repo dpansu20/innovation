@@ -41,16 +41,13 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown"style="font-weight: bold; margin-right: 20px;"><a href="index.html" class="nav-link">Home</a></li>
                 <li class="nav-item dropdown "style="font-weight: bold; margin-right: 20px;">
-                    <a href="#" class="nav-link dropdown-toogle" data-toggle="dropdown">Modules</a>
+                    <a href="#" class="nav-link dropdown-toogle" data-toggle="dropdown">Subsystems</a>
                     <div class="dropdown-menu"style="background-color:	rgb(220,220,220);">
-                        <a href="#seeding" class="dropdown-item">
-                            SEEDING
+                        <a href="#ec" class="dropdown-item">
+                            ELECTRONICS
                         </a>
-                        <a href="#weeding" class="dropdown-item">
-                            WEEDING
-                        </a>
-                        <a href="other" class="dropdown-item">
-                            OTHERS
+                        <a href="#mod" class="dropdown-item">
+                            ROBOT MODULES
                         </a>
                     </div>
                 </li>
@@ -106,10 +103,26 @@
     </p>
 </div>
 
-
 <br><br>
 
-<div class="subsystems-link">
+<div class="subsystems-link" id="ec">
+    <div class="sub-head">
+        <h1>Electronics part of the FARMBOT..</h1>
+    </div>
+    <div class="electronic">
+        <p>
+            As an Electronics team we used Gazebo for simulation of the robot and its control.
+            <br>
+            Our main aim was to implement the following modules : PID Algorithm , Sensor interfacing and thus this year we introduced ROS to aid in proper control and simulation of farm bot.
+            <br><br>
+            We further aim to apply localization on farm bot and use Extended Kalman filters to aid our process.
+            <br>
+        </p>
+    </div>
+</div>
+
+
+<div class="subsystems-link" id="mod">
     <div class="sub-head">
         <h1>Various Modules in the FARMBOT..</h1>
     </div>
@@ -141,8 +154,130 @@
 <hr><br>
 
 
+<div class="seeding" id="seeding">
+    <div class="module-box">
+        <h1>SEEDING MODULE</h1>
+        <div class="module-img">
+            <img src="images/image10.png" alt="Seeding Module">
+        </div>
+        <h3>In this section bot is doing mainly 3 tasks...</h3>
+        <div class="seed-mod">
+            <div class="seed-card">
+                <div class="seed-info">
+                    <h2>DIGGING</h2>
+                    <p>
+                        In the digging module, we are using a circular disk for which thickness of the disk is decreasing from center to peripheral area.
+                        <br>
+                        This disk is rotating at high speed and the bot is moving forward at the same time.
+                        <br>
+                        So the it will remove the soil of that part.
+                    </p>
+                </div>
+                <div class="seed-img">
+                    <img src="images/image1.png" alt="Digging">
+                </div>
+            </div>
+            <div class="seed-card">
+                <div class="seed-info">
+                    <h2>SEEDING</h2>
+                    <p>
+                        In the seeding module, there is a disk with holes of seed size and it is is covered with another disk.
+                        <br>
+                        At the top part there is a funnel.
+                        <br>
+                        As soon as hole in the disk align with hole of funnel seed will be dropped in to the disk and from the other end it will release the seed outside.
+                    </p>
+                </div>
+                <div class="seed-img">
+                    <img src="images/image2.png" alt="Seeding">
+                </div>
+            </div>
+            <div class="seed-card">
+                <div class="seed-info">
+                    <h2>LEVELLING</h2>
+                    <p>
+                        In the Levelling module, For covering the seed, we are using a V shape leveler which will collect soil that is removed by the disk and pushes back into the digged area.
+                    </p>
+                </div>
+                <div class="seed-img">
+                    <img src="images/image4.png" alt="Levelling">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
+<br><hr><br>
 
+<div class="weeding" id="weeding">
+    <div class="module-box">
+        <h1>WEEDING MODULE</h1>
+        <div class="module-img">
+            <img src="images/image9.png" alt="Weeding Module">
+        </div>
+        <h3>There are 2 types of weeding...</h3>
+        <div class="weed-mod">
+            <div class="seed-card">
+                <div class="seed-info">
+                    <h2>INTER-ROW</h2>
+                    <p>
+                        In the inter-row we are removing weed from the crop row.
+                        <br>
+                        For this, we are using a cutter which will work or rotate when a weed is detected by the cameras/sensors as weed detection can be done using OpenCV.
+                        <br>
+                        Cutters are circular blades which will remove weeds.
+                    </p>
+                </div>
+                <div class="seed-img">
+                    <img src="images/image7.png" alt="Inter-Row Weeding">
+                </div>
+            </div>
+            <div class="seed-card">
+                <div class="seed-info">
+                    <h2>INTRA-ROW</h2>
+                    <p>
+                        In the intra-row there is a plough type arrangement which will continuously remove the weed from the side part of the crop row.
+                    </p>
+                </div>
+                <div class="seed-img">
+                    <img src="images/image5.png" alt="Intra-Row Weeding">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br><hr><br>
+
+<div class="others" id="others">
+    <div class="module-box">
+        <h2>Other Modules...</h2>
+        <h1>SOIL COLLECTION MODULE</h1>
+        <p>
+            We are using auger as a tool for collecting soil. Auger is mounted with lead screw setup as shown in figure.
+            <br><br>
+            Soil testing methods can be done after collecting soil.
+            <br><br>
+        </p>
+        <div class="module-img">
+            <img src="images/image6.png" style="max-height: 500px; width: auto;" alt="Soil Collection Module">
+        </div>
+        <br><hr><br>
+        <h1>ROBOTIC ARM</h1>
+        <p>
+            The Robotic arm is used for collecting the fruits or vegetables of normal sizes with the help of 3 fingered grippers.
+            <br><br>
+            It has  4 Degrees of freedom.
+            <br><br>
+            This Robotic arm is completely autonomous and mounted on the bot.
+            <br><br>
+        </p>
+        <div class="module-img">
+            <img src="images/image8.jpg" style="max-height: 500px; width: auto;" alt="Robotic Arm">
+        </div>
+</div>
+
+<br><br><br>
 
 
 
